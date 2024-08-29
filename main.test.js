@@ -13,7 +13,7 @@ describe('numberDoubler', () => {
 describe('stringRepeater', () => {
     it('should repeat strings', () => {
         assert.strictEqual(stringRepeater('abc'), 'abcabcabcabc');
-        assert.strictEqual(stringRepeater('a'), 'aaaaaaaaaa');
+        assert.strictEqual(stringRepeater('a'), 'aaaaaaaaaaaaaaaa');
         assert.strictEqual(stringRepeater('hotdog'), 'hotdoghotdog');
     });
 });
