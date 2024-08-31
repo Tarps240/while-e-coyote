@@ -1,5 +1,4 @@
 // NumberDoubler function to double a number until it reaches 100.
-
 function numberDoubler(num) {
     // Your code here
     while (num < 100) {
@@ -12,7 +11,6 @@ function numberDoubler(num) {
 console.log(numberDoubler(3));
 
 // StringRepeater function to repeat a string a specified number of times.
-
 function stringRepeater(str) {
     // Your code here
     while (str.length < 10) {
